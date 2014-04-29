@@ -1,0 +1,89 @@
+@import 'compass';
+
+#block {
+  margin: 0 auto;
+  width: 960px;
+  .first {
+    height: 50px;
+    width: 20%;
+    background: red;
+  }
+  .second {
+    height: 50px;
+    width: 20%;
+    background: yellow;
+  }
+  .third {
+    height: 50px;
+    width: 20%;
+    background: purple;
+  }
+}
+
+#inline {
+  margin: 0 auto;
+  width: 960px;
+  .first {
+    height: 50px;
+    width: 20%;
+    background: red;
+    display: inline;
+  }
+  .second {
+    height: 50px;
+    width: 20%;
+    background: yellow;
+    display: inline;
+  }
+  .third {
+    height: 50px;
+    width: 20%;
+    background: purple;
+    display: inline;
+  }
+}
+#inline-block {
+  margin: 0 auto;
+  width: 960px;
+  .first {
+    height: 50px;
+    width: 20%;
+    background: red;
+    @include inline-block;
+  }
+  .second {
+    height: 50px;
+    width: 20%;
+    background: yellow;
+    @include inline-block;
+  }
+  .third {
+    height: 50px;
+    width: 20%;
+    background: purple;
+    @include inline-block;
+  }
+}
+
+#float {
+  margin: 0 auto;
+  width: 960px;
+  .first {
+    height: 50px;
+    width: 20%;
+    background: red;
+    float: left;
+  }
+  .second {
+    height: 50px;
+    width: 20%;
+    background: yellow;
+    float: left;
+  }
+  .third {
+    height: 50px;
+    width: 20%;
+    background: purple;
+    float: left;
+  }
+}
