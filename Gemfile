@@ -15,3 +15,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem "compass"
 gem "susy"
+
+gem "middleman-deploy"
