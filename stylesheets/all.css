@@ -1,0 +1,103 @@
+/* line 3, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+#block {
+  margin: 0 auto;
+  width: 960px; }
+  /* line 6, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #block .first {
+    height: 50px;
+    width: 20%;
+    background: red; }
+  /* line 11, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #block .second {
+    height: 50px;
+    width: 20%;
+    background: yellow; }
+  /* line 16, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #block .third {
+    height: 50px;
+    width: 20%;
+    background: purple; }
+
+/* line 23, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+#inline {
+  margin: 0 auto;
+  width: 960px; }
+  /* line 26, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #inline .first {
+    height: 50px;
+    width: 20%;
+    background: red;
+    display: inline; }
+  /* line 32, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #inline .second {
+    height: 50px;
+    width: 20%;
+    background: yellow;
+    display: inline; }
+  /* line 38, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #inline .third {
+    height: 50px;
+    width: 20%;
+    background: purple;
+    display: inline; }
+
+/* line 45, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+#inline-block {
+  margin: 0 auto;
+  width: 960px; }
+  /* line 48, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #inline-block .first {
+    height: 50px;
+    width: 20%;
+    background: red;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline; }
+  /* line 54, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #inline-block .second {
+    height: 50px;
+    width: 20%;
+    background: yellow;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline; }
+  /* line 60, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #inline-block .third {
+    height: 50px;
+    width: 20%;
+    background: purple;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline; }
+
+/* line 68, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+#float {
+  margin: 0 auto;
+  width: 960px; }
+  /* line 71, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #float .first {
+    height: 50px;
+    width: 20%;
+    background: red;
+    float: left; }
+  /* line 77, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #float .second {
+    height: 50px;
+    width: 20%;
+    background: yellow;
+    float: left; }
+  /* line 83, /home/groteck/projects/display-test/source/stylesheets/all.scss */
+  #float .third {
+    height: 50px;
+    width: 20%;
+    background: purple;
+    float: left; }
